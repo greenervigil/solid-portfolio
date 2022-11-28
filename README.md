@@ -1,4 +1,7 @@
 # Greener-Vigil Portfolio Site 
+[![version](https://img.shields.io/github/package-json/v/greenervigil/solid-portfolio)](https://github.com/greenervigil/solid-portfolio/)
+[![License: MIT](https://img.shields.io/github/license/greenervigil/solid-portfolio)]
+[![issues - greenfield](https://img.shields.io/github/issues/greenervigil/solid-portfolio)](https://github.com/greenervigil/solid-portfolio/issues)
 
 made with [Solid JS](https://solidjs.com) and [TailwindCSS](https://tailwindcss.com/docs/).
 
