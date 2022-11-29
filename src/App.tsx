@@ -5,16 +5,16 @@ import Home from './views/Home';
 const App: Component = () => {
   return (
     <>
-    <nav class='flex flex-row justify-between rounded-lg shadow-2xl'>
+    <nav class='flex flex-row border-b-2 border-yellow-700 justify-between bg-cyan-800'>
       <a class='p-6' href='/'>
-        <p class='text-gray-800 text-2xl'>Daniel J Greener-Vigil</p>
+        <p class='text-cyan-300 text-2xl'>Daniel J Greener-Vigil</p>
       </a>
       <ul class='flex flex-row'>
-        <A end href='/' class='p-6 hover:bg-cyan-900 hover:text-white'>Home</A>
-        <A href='/about' class='p-6 hover:bg-cyan-900 hover:text-white'>About</A>
-        <A href='experience' class='p-6 hover:bg-cyan-900 hover:text-white'>Experience</A>
-        <A href='projects' class='p-6 hover:bg-cyan-900 hover:text-white'>Projects</A>
-        <A href='contact' class='p-6 hover:bg-cyan-900 hover:text-white'>Contact</A>
+        <A end href='/' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>Home</A>
+        <A href='/about' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>About</A>
+        <A href='experience' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>Experience</A>
+        <A href='projects' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>Projects</A>
+        <A href='contact' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>Contact</A>
       </ul>
     </nav>
 
