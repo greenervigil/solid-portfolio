@@ -10,11 +10,11 @@ const App: Component = () => {
         <p class='text-gray-800 text-2xl'>Daniel J Greener-Vigil</p>
       </a>
       <ul class='flex flex-row'>
-        <A end href='/' class='p-6 hover:bg-cyan-800 hover:text-white'>Home</A>
-        <A href='/about' class='p-6 hover:bg-cyan-800 hover:text-white'>About</A>
-        <A href='experience' class='p-6 hover:bg-cyan-800 hover:text-white'>Experience</A>
-        <A href='projects' class='p-6 hover:bg-cyan-800 hover:text-white'>Projects</A>
-        <A href='contact' class='p-6 hover:bg-cyan-800 hover:text-white'>Contact</A>
+        <A end href='/' class='p-6 hover:bg-cyan-900 hover:text-white'>Home</A>
+        <A href='/about' class='p-6 hover:bg-cyan-900 hover:text-white'>About</A>
+        <A href='experience' class='p-6 hover:bg-cyan-900 hover:text-white'>Experience</A>
+        <A href='projects' class='p-6 hover:bg-cyan-900 hover:text-white'>Projects</A>
+        <A href='contact' class='p-6 hover:bg-cyan-900 hover:text-white'>Contact</A>
       </ul>
     </nav>
 

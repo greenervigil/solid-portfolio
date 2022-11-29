@@ -7,7 +7,7 @@ const Home: Component = () => {
             <div class='text-6xl text-zinc-300 p-3'>Daniel Greener-Vigil</div>
             <div class='text-slate-400 text-base p-3'>I'm a Software Engineer focus on developing full stack digital solutions. </div>
 
-            <button class='text-base h-8 w-1/5 m-5 rounded-3xl text-cyan-300 shadow-lg bg-cyan-600 hover:bg-cyan-500 hover:text-white'>View My Work</button>
+            <button class='text-base h-8 w-1/5 m-5 rounded-3xl text-cyan-200 shadow-lg bg-yellow-600 hover:bg-cyan-900 hover:text-white hover:outline-dotted hover:outline-yellow-600'>View My Work</button>
         </div>
     )
 }
