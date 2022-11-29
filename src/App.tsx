@@ -9,7 +9,7 @@ const App: Component = () => {
         <p class='text-gray-800 text-2xl'>Daniel J Greener-Vigil</p>
       </A>
       <ul class='flex flex-row'>
-        <A href='/' class='p-6'>Home</A>
+        <A end href='/' class='p-6'>Home</A>
         <A href='/about' class='p-6'>About</A>
         <A href='experience' class='p-6'>Experience</A>
         <A href='projects' class='p-6'>Projects</A>
