@@ -4,13 +4,14 @@ import Button from "../components/Button";
 const Home: Component = () => {
     return (
         <div class="bg-cyan-800 h-screen py-48">
-            <div class="bg-yellow-600 absolute -my-36 mx-96 rounded-full h-96 w-96"></div>
-            <div class='bg-gray-500 px-10 w-3/5 rounded-lg shadow-2xl opacity-50 py-5 z-10'>
-                <div class='text-sm text-cyan-300 opacity-100'>Hi, my name is</div>
-                <div class='text-6xl text-zinc-300 p-3 opacity-100'>Daniel Greener-Vigil</div>
-                <div class='text-zinc-300 text-base p-3 opacity-100'>I'm a Software Engineer focus on developing full stack digital solutions. </div>
-
-                <Button text="View My Work" />
+            <div class="bg-yellow-600 absolute shadow-2xl -my-36 mx-96 rounded-full h-96 w-96"></div>
+            <div class='bg-gray-500 px-10 w-6/12 rounded-lg shadow-2xl backdrop-blur-3xl opacity-70 py-5'>
+                <div class='blur-0'>
+                    <div class='text-sm text-cyan-300'>Hi, my name is</div>
+                    <div class='text-6xl text-zinc-300 p-3'>Daniel Greener-Vigil</div>
+                    <div class='text-zinc-300 text-base p-3'>I'm a Software Engineer focus on developing full stack digital solutions. </div>
+                    <Button text="Learn More" />
+                </div>
             </div>
         </div>
     )
