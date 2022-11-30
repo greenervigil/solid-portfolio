@@ -1,7 +1,12 @@
+import { Navigate, useNavigate } from "@solidjs/router";
 import { Component } from "solid-js"
 import Button from "../components/Button";
 
 const Home: Component = () => {
+    const navigate = useNavigate();
+    const handleButtonclick = () => {
+        navigate('/about', { replace: true });
+    }
     return (
         <div class="bg-cyan-800 h-screen py-48">
             <div class="bg-yellow-600 absolute shadow-2xl -my-36 mx-96 rounded-full h-96 w-96"></div>
@@ -9,8 +14,8 @@ const Home: Component = () => {
                 <div class='blur-0'>
                     <div class='text-sm text-cyan-300'>Hi, my name is</div>
                     <div class='text-6xl text-zinc-300 p-3'>Daniel Greener-Vigil</div>
-                    <div class='text-zinc-300 text-base p-3'>I'm a Software Engineer focus on developing full stack digital solutions. </div>
-                    <Button text="Learn More" />
+                    <div class='text-zinc-300 text-base p-3'>I'm a Software Engineer focused on developing full stack digital solutions. </div>
+                    <Button text="Learn More" handleClick={handleButtonclick} />
                 </div>
             </div>
         </div>
