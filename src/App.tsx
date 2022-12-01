@@ -2,6 +2,7 @@ import { Routes, Route, A } from '@solidjs/router';
 import type { Component } from 'solid-js';
 import About from './views/About';
 import Home from './views/Home';
+import Contact from './views/Contact';
 
 const App: Component = () => {
   return (
@@ -24,7 +25,7 @@ const App: Component = () => {
       <Route path="/about" component={About} />
       <Route path="/experience" element={<div class='text-4xl text-green-700 text-center py-20'>Experience</div>} />
       <Route path="/projects" element={<div class='text-4xl text-green-700 text-center py-20'>Projects</div>} />
-      <Route path="/contact" element={<div class='text-4xl text-green-700 text-center py-20'>Contact</div>} />
+      <Route path="/contact" component={Contact} />
     </Routes>
     </>
   );
