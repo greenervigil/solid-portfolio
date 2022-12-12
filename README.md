@@ -35,4 +35,5 @@ Your app is ready to be deployed!
 
 ## Deployment
 
+Run build
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
