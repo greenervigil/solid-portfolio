@@ -14,7 +14,7 @@ const Home: Component = () => {
                 <div class='blur-0'>
                     <div class='text-sm text-cyan-300'>Hi, my name is</div>
                     <div class='text-6xl text-zinc-300 p-3'>Daniel Greener-Vigil</div>
-                    <div class='text-zinc-300 text-base p-3'>I'm a Software Engineer focused on developing full stack digital solutions. </div>
+                    <div class='text-zinc-300 text-base p-3'>Software Engineer focused on developing full stack digital solutions for the web and more.</div>
                     <Button text="Learn More" handleClick={handleButtonclick} />
                 </div>
             </div>
