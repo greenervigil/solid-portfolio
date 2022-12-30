@@ -9,7 +9,7 @@ const App: Component = () => {
     <>
     <nav class='flex flex-row border-b-2 border-yellow-700 justify-between bg-cyan-800'>
       <a class='p-4' href='/'>
-        <p class='text-cyan-300 text-2xl w-24 whitespace-nowrap overflow-hidden'>Daniel J Greener-Vigil</p>
+        <p class='text-cyan-300 text-2xl whitespace-nowrap overflow-hidden'>Daniel J Greener-Vigil</p>
       </a>
       <ul class='flex flex-row pt-4'>
         <li><A end href='/' class='text-cyan-300 p-6 hover:bg-cyan-900 hover:text-white'>Home</A></li>
